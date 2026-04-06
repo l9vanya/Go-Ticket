@@ -1,0 +1,31 @@
+# Dependencies
+node_modules
+
+# Next.js
+apps/web/.next
+apps/web/out
+
+# API build output
+apps/api/dist
+apps/api/uploads
+
+# Environment files — never commit secrets
+.env
+.env.local
+.env.*.local
+apps/web/.env.local
+apps/api/.env
+
+# Turbo cache
+.turbo
+
+# Editor
+.vscode
+.idea
+.DS_Store
+*.suo
+*.sw?
+
+# Logs
+*.log
+npm-debug.log*
